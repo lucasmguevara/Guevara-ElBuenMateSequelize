@@ -43,6 +43,7 @@ CREATE TABLE `tb_productos` (
 
 LOCK TABLES `tb_productos` WRITE;
 /*!40000 ALTER TABLE `tb_productos` DISABLE KEYS */;
+INSERT INTO `tb_productos` VALUES (1,'Termo Stanley Termo Clásico 1.4 LTS','Este termo Stanley fue pensado para acompañarte a través de los años, ya que durabilidad y estilo son las palabras que definen a la marca. Gracias a su resistencia, obtendrás un gran rendimiento térmico y garantizarás que el líquido permanezca con la temperatura ideal por más tiempo.',18999.00,'Termos',1,0,'images/shopProducts/1.png',NULL,NULL),(2,'Termo Lumilagro Acero Inoxidable','Termo de acero inoxidable. Capacidad 1L. Su doble pared de acero inoxidable y el proceso de vacío exclusivo garantiza una alta performance del producto y asegura el mantenimiento de temperatura por muchas horas.',9370.00,'Termos',0,0,'images/shopProducts/2.png',NULL,NULL),(3,'Mate Uruguayo Camionero Boca Ancha','Mate Camionero hechos en Cuero Vacuno de 4mm, excelente calidad y durabilidad.',4200.00,'Mates',0,0,'images/shopProducts/3.png',NULL,NULL),(4,'Bombilla Pico De Loro De Alpaca','BOMBILLA PICO DE LORO DE ALPACA BRASILERA BI COLOR. FABRICADA EN PLATEADO Y DORADO. NO SE TAPA. EXCELENTE CALIDAD.',1059.00,'Bombillas',0,0,'images/shopProducts/4.png',NULL,NULL),(5,'Yerba Mate Playadito 1000grs Suave Sin Tacc','Elaborada con palo y libre de gluten, se caracteriza por su delicioso sabor suave. Recomendado para quienes toman mate con frecuencia y prefieren sabores suaves y duraderos.',695.00,'Yerba',0,0,'images/shopProducts/5.png',NULL,NULL),(6,'Yerba Canarias Para Mate Sabor Tradicional 1 Kg','Se compone principalmente de polvo con hojas muy pequeñas y cortadas, sin tallos (sin palo). Su sabor es fuerte y amargo, y su textura casi cremosa.',1000.00,'Yerba',0,0,'images/shopProducts/6.png',NULL,NULL);
 /*!40000 ALTER TABLE `tb_productos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -84,4 +85,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-22 19:27:45
+-- Dump completed on 2022-12-28 15:48:35
